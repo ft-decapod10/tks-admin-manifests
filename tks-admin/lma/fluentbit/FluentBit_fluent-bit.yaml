@@ -1,5 +1,5 @@
-# Source: fluentbit-operator/templates/fluentbit/fluentbit.yaml
-apiVersion: logging.kubesphere.io/v1alpha2
+# Source: fluentbit-resource/templates/fluentbit/fluentbit.yaml
+apiVersion: fluentbit.fluent.io/v1alpha2
 kind: FluentBit
 metadata:
   name: fluent-bit
