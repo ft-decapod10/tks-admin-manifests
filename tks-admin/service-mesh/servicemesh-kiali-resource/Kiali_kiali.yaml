@@ -22,7 +22,7 @@ spec:
         memory: 1024Mi
     node_selector:
       servicemesh: enabled
-    service_type: ClusterIP
+    service_type: LoadBalancer
   auth:
     strategy: anonymous
   external_services:
