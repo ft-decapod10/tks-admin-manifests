@@ -12,8 +12,8 @@ spec:
   match: "seperate-kube-0.*"
   loki:
     autoKubernetesLabels: "on"
-    host: loki
-    port: 3100
+    host: loki-loki-distributed-gateway
+    port: 80
     labels:
     - job=platform
     - $kubernetes['pod_name']
