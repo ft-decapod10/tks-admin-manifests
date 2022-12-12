@@ -13,8 +13,8 @@ spec:
   match: "kube.*"
   loki:
     autoKubernetesLabels: "on"
-    host: loki
-    port: 3100
+    host: loki-loki-distributed-gateway
+    port: 80
     labels:
     - job=container
     - $kubernetes['pod_name']
