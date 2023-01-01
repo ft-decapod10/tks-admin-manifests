@@ -10,8 +10,11 @@ metadata:
 spec:
   istio_namespace: istio-system
   deployment:
+    accessible_namespaces: ["**"]
     ingress_enabled: false
     namespace: istio-system
+    image_name: quay.io/kiali/kiali
+    image_version: v1.45.1
     replicas: 1
     resources:
       requests:
@@ -49,7 +52,7 @@ spec:
       enabled: true
       namespace_selector: true
       in_cluster_url: http://jaeger-operator-jaeger-query.istio-system:16686
-      url: https://jaeger-v2.taco-cat.xyz
+      url: https://jaeger-ft.taco-cat.xyz
       use_grpc: false
     grafana:
       auth:

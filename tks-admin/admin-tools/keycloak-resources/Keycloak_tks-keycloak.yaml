@@ -11,4 +11,5 @@ spec:
     enabled: true
   externalAccess:
     enabled: false
+    host: CHANGEME
 

@@ -3,7 +3,7 @@ kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: cluster-autoscaler-management
-  namespace: cod9cs30t
+  namespace: cq8c1fnyj
 rules:
   - apiGroups:
     - cluster.x-k8s.io

@@ -44,7 +44,7 @@ spec:
           args:
           - --cloud-provider=clusterapi
           - --cloud-config=/etc/mgmt_cluster/kubeconfig
-          - --node-group-auto-discovery=clusterapi:namespace=cod9cs30t,clusterName=cod9cs30t
+          - --node-group-auto-discovery=clusterapi:namespace=cq8c1fnyj,clusterName=cq8c1fnyj
           volumeMounts:
           - name: mgmt-kubeconfig
             mountPath: "/etc/mgmt_cluster"
